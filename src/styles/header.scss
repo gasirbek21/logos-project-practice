@@ -1,0 +1,95 @@
+.header {
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
+  .container {
+    padding: 23px 0 24px 0;
+  }
+  &-nav {
+    display: flex;
+    align-items: center;
+  }
+
+  &-logo {
+    color: #fff;
+    letter-spacing: 0.15em;
+    font-size: 25px;
+    font-weight: 700;
+  }
+
+  &-search {
+    display: flex;
+    align-items: center;
+    margin: 0 30px 0 72px;
+    width: 555px;
+    background: #504b4a;
+    border-radius: 10px;
+    padding: 14px 17px 14px 14px;
+    & > input {
+      outline: none;
+      border: none;
+      background: transparent;
+      color: #cfcfcf;
+      width: 100%;
+      padding-left: 10px;
+      font-weight: 400;
+      font-size: 18px;
+    }
+  }
+  &-contact {
+    display: flex;
+    align-items: center;
+
+    &__icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 32px;
+      height: 32px;
+      background: linear-gradient(114.93deg, #618967 5.11%, #72a479 94%);
+      border-radius: 50%;
+    }
+
+    &__number {
+      margin: 0 188px 0 10px;
+    }
+
+    &__number > span {
+      font-weight: 400;
+      font-size: 12px;
+      color: #cfcfcf;
+    }
+    &__number > a {
+      font-weight: 700;
+      font-size: 16px;
+      color: #fff;
+    }
+  }
+  &-btn {
+    padding: 18px 0 17px 24px;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  &-count {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border-radius: 50%;
+    color: #403c3b;
+    margin: 0 13px 0 31px;
+    position: relative;
+    &::after {
+      position: absolute;
+      content: "";
+      width: 1px;
+      height: 38px;
+      left: -13px;
+      background: #fff;
+      opacity: 0.3;
+    }
+  }
+}

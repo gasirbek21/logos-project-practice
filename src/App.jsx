@@ -5,6 +5,7 @@ import Catalog from "./pages/Catalog/Catalog";
 import Delivery from "./pages/Delivery/Delivery";
 import Home from "./pages/Home/Home";
 import Login from "./pages/Login/Login";
+import Order from "./pages/Order/Order";
 import Product from "./pages/Product/Product";
 import Register from "./pages/Register/Register";
 import Sales from "./pages/Sales/Sales";
@@ -22,7 +23,7 @@ function App() {
                     <Route path={"/catalog/:category"} element={<Catalog />} />
                     <Route path={"/product/:id"} element={<Product />} />
                     {/* <Route path={"/product/add"} element={<AddProduct />} /> */}
-                    <Route path={"/orders"} element={<Orders />} />
+                    <Route path={"/orders"} element={<Order />} />
                 </Route>
                 <Route path={"register"} element={<Register />} />
                 <Route path={"login"} element={<Login />} />
