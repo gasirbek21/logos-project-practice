@@ -1,0 +1,70 @@
+.register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  max-width: 480px;
+  width: 100%;
+  text-align: center;
+  user-select: none;
+
+
+  &-email {
+    margin-bottom: 36px;
+    cursor: pointer;
+  }
+
+  &-title {
+    margin-bottom: 36px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.2;
+  }
+
+  &-act {
+    max-width: 335px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  &-field {
+    width: 100%;
+    padding: 25px 16px 13px;
+    outline: none;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid #618967;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  &-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.85px;
+    border-radius: 18px;
+    height: 54px;
+    margin: 54px 0 32px;
+  }
+
+  &-password {
+    position: relative;
+  }
+  &-eye {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    cursor: pointer;
+    z-index: 10;
+  }
+}

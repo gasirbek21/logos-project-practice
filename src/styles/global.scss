@@ -1,41 +1,53 @@
 @import "../assets/fonts/stylesheets.css";
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style-type: none;
-    font-family: "Gilroy", "Roboto", sans-serif;
-    font-style: normal;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Gilroy", "Roboto", sans-serif;
+  font-style: normal;
+  color: #fff;
 }
 
 html {
-    scroll-behavior: smooth;
-    height: 100vh;
+  scroll-behavior: smooth;
+  height: 100vh;
 }
 
 body {
-    background: linear-gradient(360deg, #211f20 0%, #44403f 100%);
+  background: linear-gradient(360deg, #211f20 0%, #44403f 100%);
 }
 
 img {
-    width: 100%;
+  width: 100%;
 }
 
 .container {
-    max-width: 1272px;
-    margin: 0 auto;
+  max-width: 1272px;
+  margin: 0 auto;
 }
 
-button {
-    color: #fff;
-    background: linear-gradient(114.93deg, #618967 5.11%, #72a479 94%);
-    border-radius: 10px;
-    font-weight: 600;
-    font-size: 14px;
-    outline: none;
-    border: none;
+button, .btn {
+  color: #fff;
+  background: linear-gradient(114.93deg, #618967 5.11%, #72a479 94%);
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 14px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+
+  &:hover {
+    background: linear-gradient(114.93deg, #577a5c 5.11%, #57805c 94%);
+  }
 }
 
 @import "./header.scss";
+@import "./hero.scss";
+@import "./filter.scss";
+@import "./form.scss";
+@import "./register.scss";
+
+

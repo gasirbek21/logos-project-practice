@@ -1,16 +1,26 @@
-import { createContext } from "react";
+import { createContext, useEffect, useState } from "react";
 
 export const CustomContext = createContext();
 
 export const Context = (props) => {
-    const value = {
-        name: "gas",
-        age: 22,
-    };
+  const [user, setUser] = useState({
+    email: "",
+  });
 
-    return (
-        <CustomContext.Provider value={value}>
-            {props.children}
-        </CustomContext.Provider>
-    );
+  useEffect(() => {
+    if (localStorage.getItem("user") !== null) {
+      setUser(JSON.parse(localStorage.getItem("user")));
+    }
+  }, []);
+
+  const value = {
+    user,
+    setUser,
+  };
+
+  return (
+    <CustomContext.Provider value={value}>
+      {props.children}
+    </CustomContext.Provider>
+  );
 };

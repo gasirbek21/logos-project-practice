@@ -1,0 +1,29 @@
+.hero {
+  background: url("../assets/imgs/Hero.png") center/cover no-repeat;
+  height: 484px;
+
+  &-content {
+    padding-top: 72.2px;
+    transform: rotate(-8.37deg);
+    width: 830px;
+    text-align: center;
+  }
+
+  &-title,
+  &-quest {
+    justify-content: start;
+    font-style: italic;
+    font-weight: 400;
+  }
+  &-title {
+    font-size: 67px;
+    line-height: 73.16px;
+  }
+  &-quest {
+    width: 229.31px;
+    padding: 6px 8px;
+    margin: 42px 0 0 284px;
+    background: linear-gradient(114.93deg, #618967 5.11%, #72a479 94%);
+    transform: skew(-15eg);
+  }
+}

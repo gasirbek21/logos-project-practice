@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
+import Filter from "./Filter/Filter";
+import Hero from "./Hero/Hero";
 
 const Home = () => {
   return (
-    <div>Home</div>
-  )
-}
+    <>
+      <Hero />
+      <Filter />
+    </>
+  );
+};
 
-export default Home
+export default Home;

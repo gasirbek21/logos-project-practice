@@ -1,7 +1,4 @@
 .header {
-  // display: flex;
-  // align-items: center;
-  // justify-content: center;
   .container {
     padding: 23px 0 24px 0;
   }
@@ -51,7 +48,7 @@
     }
 
     &__number {
-      margin: 0 188px 0 10px;
+      margin: 0 53px 0 10px;
     }
 
     &__number > span {
@@ -91,5 +88,12 @@
       background: #fff;
       opacity: 0.3;
     }
+  }
+  &-user {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 50px;
+
   }
 }
