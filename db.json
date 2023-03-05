@@ -326,43 +326,7 @@
       "id": 25
     }
   ],
-  "users": [
-    {
-      "email": "maria@mail.ru",
-      "password": "$2a$10$6CGBQzMSgLtaEOQW3Ugi9OI/jf3YJqPzOzYeuiTpdVGtkTViqZZW6",
-      "id": 1
-    },
-    {
-      "email": "tg@mail.ru",
-      "password": "$2a$10$mTM644Q7RKKvGV5T3myeS.Reb1hu43c19RnNfpZ122oNibY4TB2Vq",
-      "id": 2
-    },
-    {
-      "email": "gas@mail.ru",
-      "password": "$2a$10$ClvnxfYlWwnjKHZZDyXfXuAIrBUUGJf8jI04O9uqZeyLectDfpFMy",
-      "id": 3
-    },
-    {
-      "email": "he@mail.ru",
-      "password": "$2a$10$45kW4yl0O7oZs.8Yr87C2OdXdlZ5Q.6SB9xbXsEdVVLNv7.MzJOam",
-      "id": 4
-    },
-    {
-      "email": "gas@mailru",
-      "password": "$2a$10$E6LcwkGzH0ts/29oKyYP1.VAXM2UaqOPdvYXaHPA7D3bcPd97MBvy",
-      "id": 5
-    },
-    {
-      "email": "gasad@mail.ru",
-      "password": "$2a$10$vLY7iafJXPExyKTkelMgb.YR4iqxRiB1IJ8ny1ZHUy1sTB6qd4EQ.",
-      "id": 6
-    },
-    {
-      "email": "gasda@mai.ru",
-      "password": "$2a$10$.17B2RoUm5I.8ietWwsFjeNcJ57iTq3o1.xCb8JBybrDvgbDMqxSu",
-      "id": 7
-    }
-  ],
+  "users": [],
   "sales": [
     {
       "id": 1,
