@@ -29,7 +29,8 @@ img {
   margin: 0 auto;
 }
 
-button, .btn {
+button,
+.btn {
   color: #fff;
   background: linear-gradient(114.93deg, #618967 5.11%, #72a479 94%);
   border-radius: 10px;
@@ -45,9 +46,8 @@ button, .btn {
 }
 
 @import "./header.scss";
+@import "./footer.scss";
 @import "./hero.scss";
 @import "./filter.scss";
 @import "./form.scss";
 @import "./register.scss";
-
-

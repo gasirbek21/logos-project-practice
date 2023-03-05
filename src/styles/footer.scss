@@ -1,0 +1,48 @@
+.footer {
+  background: linear-gradient(270.7deg, #44403f 0.4%, #211f20 100%);
+  .container {
+    margin: 0 0 28px 159px;
+    max-width: 915px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-desc {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &-logo {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 25px;
+    padding: 28px 0 15px;
+    letter-spacing: 0.15em;
+  }
+
+  &-rights {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #cfcfcf;
+    margin-bottom: 7px;
+  }
+  &-map {
+    margin: 24px 0;
+    font-weight: 500;
+    font-size: 14px;
+  }
+  &-links {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    transition: 0.4s ease;
+  }
+  &-link:hover {
+    color: #618967;
+    transition: 0.4s ease;
+  }
+}

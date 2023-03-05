@@ -15,7 +15,7 @@ const Header = () => {
     <div className="header">
       <div className="container">
         <div className="header-nav">
-          <h1 className="header-logo">LOGOS</h1>
+          <Link to="/" className="header-logo">LOGOS</Link>
           <div className="header-search">
             <svg
               xmlns="http://www.w3.org/2000/svg"
