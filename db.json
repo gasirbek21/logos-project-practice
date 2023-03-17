@@ -326,7 +326,18 @@
       "id": 25
     }
   ],
-  "users": [],
+  "users": [
+    {
+      "email": "a22@as.com",
+      "password": "$2a$10$p32LOdFw/iBjnv9qHhqfouqws3k9tEEHWCl1Lamsi/2kx0Ygm2gr.",
+      "id": 1
+    },
+    {
+      "email": "dasdas@adsada.com",
+      "password": "$2a$10$dIruIeJ/uwal3Wp7CcaCFOCeR4ClFprjPDvozxlltAj48dvYYgCgO",
+      "id": 2
+    }
+  ],
   "sales": [
     {
       "id": 1,

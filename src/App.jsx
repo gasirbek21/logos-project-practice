@@ -1,5 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import Layout from "./layout/Layout";
+import AddProduct from "./pages/AddProduct/AddProduct";
 import Basket from "./pages/Basket/Basket";
 import Catalog from "./pages/Catalog/Catalog";
 import Delivery from "./pages/Delivery/Delivery";
@@ -12,24 +13,24 @@ import Sales from "./pages/Sales/Sales";
 import "./styles/global.scss";
 
 function App() {
-    return (
-        <>
-            <Routes>
-                <Route path={""} element={<Layout />}>
-                    <Route path={"/"} element={<Home />} />
-                    <Route path={"/sales"} element={<Sales />} />
-                    <Route path={"/delivery"} element={<Delivery />} />
-                    <Route path={"/basket"} element={<Basket />} />
-                    <Route path={"/catalog/:category"} element={<Catalog />} />
-                    <Route path={"/product/:id"} element={<Product />} />
-                    {/* <Route path={"/product/add"} element={<AddProduct />} /> */}
-                    <Route path={"/orders"} element={<Order />} />
-                </Route>
-                <Route path={"register"} element={<Register />} />
-                <Route path={"login"} element={<Login />} />
-            </Routes>
-        </>
-    );
+  return (
+    <>
+      <Routes>
+        <Route path={""} element={<Layout />}>
+          <Route path={"/"} element={<Home />} />
+          <Route path={"/sales"} element={<Sales />} />
+          <Route path={"/delivery"} element={<Delivery />} />
+          <Route path={"/basket"} element={<Basket />} />
+          <Route path={"/catalog/:category"} element={<Catalog />} />
+          <Route path={"/product/:id"} element={<Product />} />
+          <Route path={"/product/add"} element={<AddProduct />} />
+          <Route path={"/orders"} element={<Order />} />
+        </Route>
+        <Route path={"register"} element={<Register />} />
+        <Route path={"login"} element={<Login />} />
+      </Routes>
+    </>
+  );
 }
 
 export default App;
