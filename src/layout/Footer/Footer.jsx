@@ -26,7 +26,7 @@ const Footer = () => {
           <Link to="/back-product" className="footer-link">
             Возврат товара
           </Link>
-          <Link to="/promotion" className="footer-link">
+          <Link to="/sales" className="footer-link">
             Акции
           </Link>
         </div>

@@ -336,6 +336,16 @@
       "email": "dasdas@adsada.com",
       "password": "$2a$10$dIruIeJ/uwal3Wp7CcaCFOCeR4ClFprjPDvozxlltAj48dvYYgCgO",
       "id": 2
+    },
+    {
+      "email": "gas@mail.com",
+      "password": "$2a$10$l6lKl17VvPTs2H.77Y6/QuFxYoYVlMT.C0ffgwdpBumS33rqbSUz.",
+      "id": 3
+    },
+    {
+      "email": "gas@1.com",
+      "password": "$2a$10$fXCHcdUQU23mp0nSKCoyY.l1dBgOLmP/dQv8DKErxWN1DNMTk4gbC",
+      "id": 4
     }
   ],
   "sales": [

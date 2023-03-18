@@ -2,7 +2,7 @@ import React, { useContext, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { FaPencilAlt } from "react-icons/fa";
 import { AiFillEye, AiFillEyeInvisible } from "react-icons/ai";
-import axios from "axios";
+import axios from "../../utils/axios";
 import { CustomContext } from "../../utils/Context";
 
 const Register = () => {
@@ -17,7 +17,7 @@ const Register = () => {
     let newUser = { email, password: e.target[0].value };
 
     axios
-      .post("http://localhost:8080/register", newUser)
+      .post("/register", newUser)
       .then(({ data }) => {
         console.log(data);
         setUser({
@@ -35,7 +35,6 @@ const Register = () => {
       })
       .then()
       .catch((error) => alert(error));
-    console.log();
   };
   return (
     <div className="register">

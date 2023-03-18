@@ -1,21 +1,25 @@
 import { useContext } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "../../styles/header.scss";
 import { CustomContext } from "../../utils/Context";
 
 const Header = () => {
   const { user, setUser } = useContext(CustomContext);
+  const navigate = useNavigate();
   const userLogout = () => {
     setUser({
       email: "",
     });
     localStorage.removeItem("user");
+    navigate("/login");
   };
   return (
     <div className="header">
       <div className="container">
         <div className="header-nav">
-          <Link to="/" className="header-logo">LOGOS</Link>
+          <Link to="/" className="header-logo">
+            LOGOS
+          </Link>
           <div className="header-search">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -110,7 +114,7 @@ const Header = () => {
                   stroke="white"
                   strokeWidth="1.5"
                   strokeLinecap="round"
-                  stroke-linejoin="round"
+                  strokeLinejoin="round"
                 />
                 <path
                   fillRule="evenodd"

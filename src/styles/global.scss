@@ -11,14 +11,6 @@
   color: #fff;
 }
 
-input:-webkit-autofill,
-input:-webkit-autofill:focus {
-  transition: background-color 600000s 0s, color 600000s 0s;
-}
-input[data-autocompleted] {
-  background-color: transparent !important;
-}
-
 html {
   scroll-behavior: smooth;
   height: 100vh;
@@ -32,9 +24,43 @@ img {
   width: 100%;
 }
 
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+  transition: background-color 600000s 0s, color 600000s 0s;
+}
+input[data-autocompleted] {
+  background-color: transparent !important;
+}
+
 .container {
   max-width: 1272px;
   margin: 0 auto;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+.title {
+  margin: 50px 0 60px 33px;
+  font-weight: 700;
+  font-size: 32px;
+  text-transform: uppercase;
+  color: #fff;
+  position: relative;
+
+  &::before {
+    content: "";
+    left: -19px;
+    width: 4px;
+    height: 33px;
+    background: #618967;
+    color: #618967;
+    position: absolute;
+  }
 }
 
 button,
@@ -59,3 +85,4 @@ button,
 @import "./filter.scss";
 @import "./form.scss";
 @import "./register.scss";
+@import "./card.scss";

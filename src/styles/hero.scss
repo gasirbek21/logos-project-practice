@@ -1,6 +1,6 @@
 .hero {
   background: url("../assets/imgs/Hero.png") center/cover no-repeat;
-  height: 484px;
+  min-height: 484px;
 
   &-content {
     padding-top: 72.2px;
