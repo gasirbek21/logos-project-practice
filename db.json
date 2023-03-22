@@ -346,6 +346,11 @@
       "email": "gas@1.com",
       "password": "$2a$10$fXCHcdUQU23mp0nSKCoyY.l1dBgOLmP/dQv8DKErxWN1DNMTk4gbC",
       "id": 4
+    },
+    {
+      "email": "joni@mail.ru",
+      "password": "$2a$10$NHFSbqEPvGCoGv4nDzfzzOjldZKLLR6TZFZ5S6WgFO7jC/OhEP/ga",
+      "id": 5
     }
   ],
   "sales": [
