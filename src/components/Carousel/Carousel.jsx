@@ -10,10 +10,10 @@ import "swiper/css/pagination";
 const Carousel = () => {
   const { products } = useContext(CustomContext);
   return (
-    <div>
+    <div className="swiper">
       <Swiper
         slidesPerView={4}
-        spaceBetween={30}
+        // spaceBetween={50}
         loop={true}
         centeredSlides={true}
         autoplay={{

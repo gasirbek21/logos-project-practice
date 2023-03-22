@@ -10,11 +10,14 @@ const Card = ({ item }) => {
         className="card-img"
       />
       <div className="card-info">
-        <h3 className="card-info__title">{item.title}</h3>
+        <div className="card-info__header">
+          <h3 className="card-info__title">{item.title}</h3>
+          <p className="card-info__weight">Вес: {item.weight} г</p>
+        </div>
         <p className="card-info__desc">{item.description}</p>
         <div className="card-info__footer">
           <span className="card-info__price">{item.price}</span>
-          <button type="button" className="btn">
+          <button type="button" className="card-info__btn btn">
             В корзину
             <svg
               xmlns="http://www.w3.org/2000/svg"

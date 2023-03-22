@@ -1,19 +1,20 @@
 import React from "react";
+import { menuData } from "../../../utils/menuData";
 
 const Filter = () => {
   return (
     <div className="filter">
       <div className="container">
-        <div className="filter-categories">
-          <span className="filter-category">Холодные закуски </span>
-          <span className="filter-category">Мясные блюда</span>
-          <span className="filter-category">Супы</span>
-          <span className="filter-category">Рыбные блюда</span>
-          <span className="filter-category">Гриль меню</span>
-          <span className="filter-category">Фирменные блюда</span>
-          <span className="filter-category">Напитки</span>
-          <span className="filter-category">Горячие закуски</span>
-        </div>
+        <ul className="filter-categories">
+          {menuData.map((item) => (
+            <li
+              key={item.en}
+              className="filter-category"
+              onClick={() => navigate(`/catalog/${item.en}`)}>
+              {item.ru}
+            </li>
+          ))}
+        </ul>
       </div>
     </div>
   );
