@@ -1,0 +1,80 @@
+.contact > .container {
+  display: flex;
+  justify-content: start;
+}
+
+.contact-content {
+  margin: 70px 0 40px;
+  background: #2e2b2c;
+  box-shadow: 0px 0px 70px rgba(0, 0, 0, 0.15);
+  border-radius: 15px;
+  padding: 25px 41px 24px 43px;
+
+  &__title {
+    font-weight: 700;
+    font-size: 30px;
+    text-align: left;
+    color: #ffffff;
+    padding-bottom: 26px;
+    border-bottom: 1px solid transparent;
+    border-image: linear-gradient(
+      0.25turn,
+      rgba(255, 255, 255, 0%),
+      rgba(255, 255, 255, 15%),
+      rgba(255, 255, 255, 0%)
+    );
+    border-image-slice: 1;
+    width: 100%;
+  }
+  &__location,
+  &__mail {
+    margin: 15px 0 20px;
+    padding-left: 13px;
+    display: flex;
+    justify-content: start;
+    gap: 15px;
+  }
+
+  &__mail {
+    padding-bottom: 28px;
+    border-bottom: 1px solid transparent;
+    border-image: linear-gradient(
+      0.25turn,
+      rgba(255, 255, 255, 0%),
+      rgba(255, 255, 255, 15%),
+      rgba(255, 255, 255, 0%)
+    );
+    border-image-slice: 1;
+    width: 100%;
+  }
+
+  &__location-address,
+  &__mail-address {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #fff;
+    padding-right: 7px;
+    & > p {
+      color: #cfcfcf;
+    }
+  }
+
+  &__call {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+  }
+  &__btn {
+    padding: 22px 30px;
+    font-weight: 700;
+    font-size: 13px;
+  }
+
+  &__social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+  }
+}

@@ -1,4 +1,5 @@
 import React, { useContext, useEffect } from "react";
+import Contact from "../../components/Contact/Contact";
 import { CustomContext } from "../../utils/Context";
 import About from "./About/About";
 import Filter from "./Filter/Filter";
@@ -16,6 +17,7 @@ const Home = () => {
       <Filter />
       <Products />
       <About />
+      <Contact />
     </>
   );
 };
