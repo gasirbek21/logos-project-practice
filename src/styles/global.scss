@@ -13,7 +13,6 @@
 
 html {
   scroll-behavior: smooth;
-  height: 100vh;
 }
 
 body {
@@ -38,10 +37,7 @@ input[data-autocompleted] {
 }
 
 .layout {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  min-height: 100vh;
+  min-height: calc(100vh - 232px);
 }
 
 .title {
@@ -78,6 +74,12 @@ button,
     background: linear-gradient(114.93deg, #577a5c 5.11%, #57805c 94%);
   }
 }
+
+@media (min-width: 0px) and (max-width: 1272px) {
+  
+}
+
+
 
 @import "./header.scss";
 @import "./footer.scss";

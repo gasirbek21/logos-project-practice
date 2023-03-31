@@ -1,5 +1,16 @@
+.contact {
+  background: url("../assets/imgs/map.png") center/cover no-repeat;
+}
+
 .contact > .container {
   display: flex;
+  position: relative;
+
+  & > svg {
+    position: absolute;
+    top: 50%;
+    left: 990px;
+  }
 }
 
 .contact-content {

@@ -100,3 +100,18 @@
     margin-right: 50px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .header{
+
+    &-nav{
+      display: flex;
+
+    }
+
+    &-contact{
+      display: none;
+    }
+  }
+  
+}
