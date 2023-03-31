@@ -8,7 +8,7 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
-db.json
+./src/db.json
 dist
 dist-ssr
 *.local
