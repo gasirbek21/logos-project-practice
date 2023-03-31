@@ -22,7 +22,6 @@ const Login = () => {
     axios
       .post("/login", newUser)
       .then(({ data }) => {
-        console.log(data);
         setUser({
           token: data.accessToken,
           ...data.user,
@@ -35,6 +34,7 @@ const Login = () => {
           })
         );
         navigate("/");
+        alert("Login successful");
       })
       .then()
       .catch((error) => alert(error));

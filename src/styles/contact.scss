@@ -73,8 +73,17 @@
 
   &__social {
     display: flex;
-    align-items: center;
     justify-content: center;
     margin-top: 30px;
+
+    &-text {
+      margin-right: 26px;
+    }
+
+    & > a {
+      display: flex;
+      padding-right: 10px;
+    }
   }
+  
 }

@@ -16,13 +16,13 @@ const Carousel = () => {
         loop={true}
         centeredSlides={true}
         autoplay={{
-          delay: 2000,
+          delay: 3000,
         }}
-        speed={2000}
+        speed={3000}
         modules={[Autoplay]}
         className="mySwiper">
         {products.map((item) => (
-          <SwiperSlide>
+          <SwiperSlide key={item.id}>
             <Card item={item} />
           </SwiperSlide>
         ))}

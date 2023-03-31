@@ -19,7 +19,6 @@ const Register = () => {
     axios
       .post("/register", newUser)
       .then(({ data }) => {
-        console.log(data);
         setUser({
           token: data.accessToken,
           ...data.user,
@@ -32,6 +31,7 @@ const Register = () => {
           })
         );
         navigate("/");
+        alert("Registration successful");
       })
       .then()
       .catch((error) => alert(error));

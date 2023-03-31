@@ -145,7 +145,7 @@
     },
     {
       "id": 12,
-      "image": "./assets/product/menu1.png",
+      "image": "./src/assets/imgs/menu 1 (1).png",
       "title": "Утка",
       "description": "Фаршированная рисом, курагой и айвой",
       "price": 3230,
@@ -158,7 +158,7 @@
     },
     {
       "id": 13,
-      "image": "./assets/product/menu2.png",
+      "image": "./src/assets/imgs/menu 1 (2).png",
       "title": "Утка",
       "description": "Фаршированная рисом, курагой и айвой",
       "price": 3230,
@@ -171,7 +171,7 @@
     },
     {
       "id": 14,
-      "image": "./assets/product/menu3.png",
+      "image": "./src/assets/imgs/menu 1 (4).png",
       "title": "Утка",
       "description": "Фаршированная рисом, курагой и айвой",
       "price": 3230,
@@ -184,7 +184,7 @@
     },
     {
       "id": 15,
-      "image": "./assets/product/menu4.png",
+      "image": "./src/assets/imgs/menu 1.png",
       "title": "Утка",
       "description": "Фаршированная рисом, курагой и айвой",
       "price": 3230,
@@ -249,7 +249,7 @@
     },
     {
       "title": "Морской окунь ",
-      "image": "https://www.restoran.ru/upload/resize_cache/editor/1af/870_580_01a88371ca9e7ba72ce6f5767ba9eff1a/morskoi_okun_zaryadye79d.webp",
+      "image": "https://ivkusnoiprosto.ru/wp-content/uploads/2015/04/morskoj_okun_v_dukhovke.jpg",
       "description": "Филе окуня обжариваем на гриле с двух сторон до появления золотистой корочки. Рыбу кладем на тарелку, украшаем лимоном, салатным миксом и поливаем томатным соусом.",
       "price": "600",
       "weight": "250",
@@ -262,7 +262,7 @@
     },
     {
       "title": "Черетто море",
-      "image": "https://www.restoran.ru/upload/resize_cache/editor/4a4/870_580_01a88371ca9e7ba72ce6f5767ba9eff1a/sup_po_sirakuzski_cheretto_more5c7.webp",
+      "image": "https://more.ceretto.rest/wp-content/uploads/sites/12/2020/09/36d1dd459e9df4cadec94b6a0c12c325-1.jpg",
       "description": "Все ингредиенты обжариваем в сотейнике на оливковом масле.  В конце приготовления добавляем вино, соус томат-базилик и рыбный бульон. Варим до готовности.",
       "price": "594",
       "weight": "314",
@@ -275,7 +275,7 @@
     },
     {
       "title": "Лосось",
-      "image": "https://www.restoran.ru/upload/resize_cache/editor/9cc/870_580_01a88371ca9e7ba72ce6f5767ba9eff1a/kopernik9dc.webp",
+      "image": "https://more.ceretto.rest/wp-content/uploads/sites/12/2021/09/snimok-ekrana-2021-09-05-v-14.33.16.png",
       "description": "Выкладываем пюре из шпината, спаржу и зеленый горошек на тарелку, сверху кладем обжаренного лосося и поливаем соусом мацони.",
       "price": "750",
       "weight": "196",
@@ -288,7 +288,7 @@
     },
     {
       "title": "Половина стерлядки на гриле",
-      "image": "https://www.restoran.ru/upload/resize_cache/editor/198/870_580_01a88371ca9e7ba72ce6f5767ba9eff1a/sterlyadka_na_grile_zaryadye832.webp",
+      "image": "https://www.povarenok.ru/data/cache/2015sep/07/18/1257808_65461-640x480.jpg",
       "description": "оловину стерляди маринуем в яблочном соке, соли, перце и меде в течение 3 минут. Обжариваем на гриле с 2 сторон по 5 минут. Редис, огурец и редьку дайкон мелко нарезаем. Стерлядку выкладываем на тарелку, кладем рядом салат, украшаем петрушкой и гранатом. При подаче подаем четверть лимона.",
       "price": "600",
       "weight": "215",
@@ -301,7 +301,7 @@
     },
     {
       "title": "Лимонад фруктовый",
-      "image": "https://www.restoran.ru/upload/resize_cache/editor/510/414_500_1/napitki936.jpg",
+      "image": "https://sekreti-domovodstva.ru/wp-content/uploads/2019/06/itog-limonad-recepti-klassik.jpg",
       "description": "Лимонад из свежих фруктов и содовой",
       "price": "250",
       "weight": "295",
